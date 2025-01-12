@@ -1,0 +1,11 @@
+use devolve index devolve
+
+DO WHILE .NOT. EOF()
+
+IF CODIGO=507
+REPLACE CODIGO WITH 503
+ENDIF
+
+SKIP
+
+ENDDO
